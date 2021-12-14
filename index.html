@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/purple/pace-theme-loading-bar.min.css"
+      integrity="sha512-MLJQ+XFPCdVHgalOjIBejExYyoHVem8Zf0FBicIQey3Yx1FY2TdqqC5upjSLGyTJpsH+6CfBzO6L/acD2kb/Pw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Quynh Anh Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="home">
+      <div class="container">
+        <div class="row">
+          <a href="" class="logo col-3"> <span>A</span> Anh </a>
+          <nav class="navigation-bar col-9">
+            <a
+              href="javascript:void(0);"
+              class="navigation-bar__icon"
+              onclick="navbarToggle()"
+            >
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li class="navigation-contact">
+                <a href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <nav class="fluid-container">
+        <ul class="navigation-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- ------ -->
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <h1 class="banner-title">
+          I’m
+          <span data-aos="zoom-in" data-aos-duration="1500">Quynh Anh</span> - a
+          freelance web designer who loves to craft attractive layouts
+        </h1>
+        <div class="banner-hero">
+          <div class="hero-image">
+            <div class="hero-mask">
+              <img
+                data-aos="flip-left"
+                src="./assets/images/hero-mask.jpg"
+                alt=""
+              />
+            </div>
+            <img
+              data-aos="flip-left"
+              class="profile-image"
+              src="./assets/images/hero.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            data-aos="fade-left"
+            data-aos-delay="500"
+            class="hero-position hero-ui"
+          >
+            <h5>UI/UX Designer</h5>
+            <span>2 Years</span>
+          </div>
+          <div data-aos="fade-right" class="hero-position hero-content">
+            <h5>Content Strategist</h5>
+            <span>1 Year</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------ -->
+    <!-- Social -->
+    <section class="social">
+      <div class="container">
+        <div class="social-list">
+          <a href="">
+            <img
+              data-aos="fade-up"
+              src="./assets/images/dribbble-4 logo.svg"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              data-aos="fade-down"
+              src="./assets/images/LinkedIn_Logo_2013 logo.svg"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              data-aos="fade-up"
+              src="./assets/images/Medium_logo_Wordmark_Black logo.svg"
+              alt=""
+            />
+          </a>
+          <a href="">
+            <img
+              data-aos="fade-down"
+              src="./assets/images/behance-4 logo.svg"
+              alt=""
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- ------ -->
+    <!-- About -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-12">
+            <h1 class="about-title">About Me.</h1>
+          </div>
+          <div class="col-lg-9 col-md-8 col-12">
+            <p class="about-content">
+              Highly organized and detail-oriented Multimedia junior from Hanoi
+              University seeking a junior position as a Web Designer. I am a
+              conscientious overachiever who always thinks outside the box.
+            </p>
+          </div>
+        </div>
+        <div class="about-figure">
+          <div data-aos="zoom-in" class="figure-block">
+            <h2>3K</h2>
+            <span>Projects Done</span>
+          </div>
+          <div data-aos="zoom-in" class="figure-block">
+            <h2>2K</h2>
+            <span>Happy Clients</span>
+          </div>
+          <div data-aos="zoom-in" class="figure-block">
+            <h2>4K</h2>
+            <span>Global Clients</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----- -->
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h1 class="portfolio-title">Portfolio</h1>
+        <p class="portfolio-content">Here are some of my recent work.</p>
+        <div class="row portfolio-work">
+          <div data-aos="flip-left" class="col-lg-3 col-6">
+            <div>
+              <img src="./assets/images/3D.svg" alt="" />
+              <h5>3D Design</h5>
+              <p>Specialized in using Maya to model and create 3D Design.</p>
+            </div>
+          </div>
+          <div data-aos="flip-left" data-aos-delay="300" class="col-lg-3 col-6">
+            <div>
+              <img src="./assets/images/2D.svg" alt="" />
+              <h5>2D Design</h5>
+              <p>Specialized in using AI, PSD to model and create 2D Design.</p>
+            </div>
+          </div>
+          <div data-aos="flip-left" data-aos-delay="600" class="col-lg-3 col-6">
+            <div>
+              <img src="./assets/images/HTML.svg" alt="" />
+              <h5>HTML/CSS</h5>
+              <p>Specialized in using Visual Studio Code to build Web pages.</p>
+            </div>
+          </div>
+          <div data-aos="flip-left" data-aos-delay="900" class="col-lg-3 col-6">
+            <div>
+              <img src="./assets/images/ads.svg" alt="" />
+              <h5>Online Ads</h5>
+              <p>
+                Specialized in using Google and Facebook Ads to raise awareness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------- -->
+    <!-- Contact -->
+    <section class="contact" id="contact-me">
+      <div class="container">
+        <h3>
+          Send me a <span data-aos="zoom-in" data-aos-duration="1000">message</span>,<br />
+          I will be touch with you shortly
+        </h3>
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <input type="text" placeholder="Your Name" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <input type="text" placeholder="Enter Your Email Address" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <input type="text" placeholder="Your Subject" />
+          </div>
+          <div class="col-lg-6 col-12">
+            <input type="text" placeholder="Your Note" />
+          </div>
+        </div>
+        <div><button>Send message</button></div>
+        <ul>
+          <li>
+            <a href=""><i class="fa fa-dribbble"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-youtube-play"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-github"></i></a>
+          </li>
+        </ul>
+        <p>
+          Copyright 2021 <span>Quynh Anh Nguyen</span> | All Rights Reserved
+        </p>
+      </div>
+    </section>
+    <!-- ------- -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+      data-pace-options='{ "ajax": false,"document":true,"eventLag":false }'
+      src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.3/pace.min.js"
+      integrity="sha512-TJX3dl0dqF2pUpKKtV60kECO4y8blw4ZPIZNEkfUnFepRKfx4nfiI37IqFa1TEsRQJkPGTIK4BBJ2k/lmsK7HA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/navToggle.js"></script>
+    <script src="./assets/js/aos.js"></script>
+  </body>
+</html>
