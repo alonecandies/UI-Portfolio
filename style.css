@@ -399,6 +399,35 @@ header {
   }
 }
 
+@media screen and (width: 768px) {
+  .banner-title {
+    font-size: 24px;
+  }
+
+  .hero-position {
+    height: 60px;
+    width: 160px;
+  }
+
+  .hero-position h5 {
+    font-size: 12px;
+  }
+
+  .hero-position span {
+    font-size: 10px;
+  }
+
+  .hero-ui {
+    top: 50px;
+    left: 0px;
+  }
+
+  .hero-content {
+    bottom: 50px;
+    right: 0px;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .banner-title {
     font-size: 23px;
